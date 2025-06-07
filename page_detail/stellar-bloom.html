@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stellar Bloom - Triverse</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/porter-sans-block"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/product-details.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div
+          class="logo"
+          style="
+            font-family: 'Porter Sans Block', sans-serif;
+            font-size: 1.5rem;
+          "
+        >
+          TRIVERSE
+        </div>
+        <div class="nav-cart-container">
+          <nav class="nav">
+            <a href="/page/home.html" class="nav-link">Home</a>
+            <a href="/page/" class="nav-link">About</a>
+            <a href="/page/product.html" class="nav-link">Shop</a>
+            <a href="/page/contact.html" class="nav-link">Contact</a>
+          </nav>
+          <div class="cart-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M9 22a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+              <path d="M20 22a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <div class="container">
+        <span>Home</span> / <span>Products</span> / <span>Stellar Bloom</span>
+      </div>
+    </div>
+
+    <!-- Main Product Section -->
+    <main class="main-product">
+      <div class="container">
+        <div class="product-grid">
+          <div class="product-image">
+            <div class="perfume-bottle">
+              <img
+                src="/asset/img/p1.png"
+                alt="Stellar Bloom Perfume"
+                class="perfume-img"
+              />
+              <div class="bottle-shadow"></div>
+            </div>
+          </div>
+
+          <div class="product-info">
+            <h1 class="product-title">Stellar Bloom</h1>
+            <p class="product-description">
+              A luminous scent that feels like stardust caught in bloom. It
+              opens with delicate brightness, floats through soft floral
+              gravity, and settles into a radiant, lunar glow. This is the quiet
+              power of a flower blooming beyond the sky — graceful, weightless,
+              and infinite.
+            </p>
+
+            <div class="rating">
+              <div class="stars">
+                <span class="star active">★</span>
+                <span class="star active">★</span>
+                <span class="star active">★</span>
+                <span class="star active">★</span>
+                <span class="star active">★</span>
+              </div>
+              <span class="rating-text"> 4.9 (142 reviews)</span>
+            </div>
+
+            <div class="price">$320.00</div>
+
+            <div class="quantity-section">
+              <label for="quantity">Quantity</label>
+              <div class="quantity-controls">
+                <button class="quantity-btn" id="decreaseBtn">-</button>
+                <input
+                  type="number"
+                  id="quantity"
+                  value="1"
+                  min="1"
+                  max="10"
+                  readonly
+                />
+                <button class="quantity-btn" id="increaseBtn">+</button>
+              </div>
+            </div>
+
+            <div class="buttons">
+              <button class="btn-primary" id="addToCart">Add To Cart</button>
+              <button class="btn-secondary" id="checkoutNow">
+                Checkout Now
+              </button>
+              <button class="btn-wishlist" id="wishlist">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                  />
+                </svg>
+                Wish List
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Product Details -->
+    <section class="product-details">
+      <div class="container">
+        <h2>Product Details</h2>
+        <p>
+          An Eau de Toilette designed for those who move gently through both
+          earthly moments and celestial dreams. Airy and radiant with a subtle
+          trail, it lasts around 4–6 hours on the skin. Best worn in spring or
+          at dusk, it also brings an effortless glow to any orbit.
+        </p>
+      </div>
+    </section>
+
+    <!-- Notes Section -->
+    <section class="notes-section">
+      <div class="container">
+        <div class="notes-grid">
+          <div class="note-card">
+            <div class="note-header">
+              <h3>Top Note</h3>
+              <p>A Glittering Veil of Cosmic Light</p>
+            </div>
+            <div class="note-visual">
+              <img src="/asset/img/sb1.png" alt="Top Note" class="note-img" />
+            </div>
+            <p class="note-description">
+              A shimmering opening with a soft sparkle — light, airy, and gently
+              sweet like a flower blooming under a new sun.
+            </p>
+          </div>
+
+          <div class="note-card">
+            <div class="note-header">
+              <h3>Heart Note</h3>
+              <p>Warmth Basking in Celestial Light</p>
+            </div>
+            <div class="note-visual">
+              <img src="/asset/img/sb2.png" alt="Heart Note" class="note-img" />
+            </div>
+            <p class="note-description">
+              Floral notes bloom in slow motion, weightless and glowing — rich,
+              romantic, and unbound by gravity..
+            </p>
+          </div>
+
+          <div class="note-card">
+            <div class="note-header">
+              <h3>Base Note</h3>
+              <p>Polished Calm from an Interstellar Forest</p>
+            </div>
+            <div class="note-visual">
+              <img src="/asset/img/sb3.png" alt="Base Note" class="note-img" />
+            </div>
+            <p class="note-description">
+              A clean, radiant trail that lingers like moonlight — soft,
+              transparent, and endlessly luminous.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discover More -->
+    <section class="discover-section">
+      <div class="container">
+        <h2>Discover More</h2>
+        <div class="discover-container">
+          <div class="discover-grid">
+            <a class="discover-card" href="neptune-drift.html">
+              <div class="discover-icon">
+                <img src="/asset/img/p5.png" alt="Neptune Drift" />
+              </div>
+              <h3>Neptune Drift</h3>
+              <p class="perfume-type">Aquatic • Mysterious</p>
+              <div class="discover-rating">
+                <span class="stars">★★★★☆</span>
+                <span>4.6 (76)</span>
+              </div>
+              <div class="discover-price">$275.00</div>
+            </a>
+
+            <a class="discover-card" href="aqua.html">
+              <div class="discover-icon">
+                <img src="/asset/img/aquaperfume.png" alt="Aqua Serenity" />
+              </div>
+              <h3>Aqua Serenity</h3>
+              <div class="perfume-type">
+                <p>Subtle • Infinite</p>
+                <p style="color: rgb(0, 27, 203)">Limited Offer!</p>
+              </div>
+              <h4></h4>
+              <div class="discover-rating">
+                <span class="stars">★★★★★</span>
+                <span>4.8 (430)</span>
+              </div>
+              <div class="discover-price">
+                <p style="color: rgb(174, 174, 177); font-size: 12px">
+                  <s>$300.00</s>
+                </p>
+                <p>$200.00</p>
+              </div>
+            </a>
+
+            <a class="discover-card" href="mars-falls.html">
+              <div class="discover-icon">
+                <img src="/asset/img/mars.png" alt="Mars Falls" />
+              </div>
+              <h3>Mars Falls</h3>
+              <div class="perfume-type">
+                <p>Bold • Redefined</p>
+                <p style="color: rgb(255, 6, 6)">Limited Offer!</p>
+              </div>
+              <div class="discover-rating">
+                <span class="stars">★★★★★</span>
+                <span>4.7 (235)</span>
+              </div>
+              <div class="discover-price">
+                <p style="color: rgb(174, 174, 177); font-size: 12px">
+                  <s>$320.00</s>
+                </p>
+                <p>$250.00</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="product-details.js"></script>
+  </body>
+</html>

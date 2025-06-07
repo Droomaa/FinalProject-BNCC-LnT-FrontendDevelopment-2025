@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Triverse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/porter-sans-block" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/contact-us.css">
+</head>
+<body>
+     <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo" style="font-family: 'Porter Sans Block', sans-serif; font-size: 1.5rem;">
+                TRIVERSE
+                </div>
+            <div class="nav-cart-container">
+                <nav class="nav">
+            <a href="/page/home.html" class="nav-link">Home</a>
+            <a href="/page/" class="nav-link">About</a>
+            <a href="/page/product.html" class="nav-link">Shop</a>
+            <a href="/page/contact-us.html" class="nav-link">Contact</a>
+          </nav>
+                <div class="cart-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 22a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                        <path d="M20 22a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="main-wrapper">
+            <!-- Contact Form Section (Kiri) -->
+            <div class="main-container">
+                <div class="contact-form">
+                    <h3 class="form-title">Contact Us</h3>
+                    
+                    <div class="success-message" id="successMessage">
+                        Thank you! Your message has been successfully sent. We will contact you shortly.
+                    </div>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telephone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">What Can We Help You with? *</label>
+                            <textarea id="message" name="message" placeholder="Write here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Info Section (Kanan) -->
+            <div class="info-section">
+                    <div class="logo-container">
+                        <div class="company-name-white">
+                    <h3>Contact Us</h3>
+                    </div>
+                        <div class="company-logo">
+                            <img src="/asset/img/Purple_Planet.png" alt="">
+                        </div>
+                    </div>
+                <div class="company-name">
+                    <h3>Triverse</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    </body>
+</html>

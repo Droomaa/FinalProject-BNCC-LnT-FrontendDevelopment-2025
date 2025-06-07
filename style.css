@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-custom: #582c77;
+  --color-custom1: #2a0939;
+  --color-custom2: #340754;
+  --color-custom3: #a351ac;
+  --color-custom4: #c28de5;
+  --color-custom5: #870789;
+  --color-custom6: #56719e;
+  --color-custom7: #070030;
+  --color-custom8: #412279;
+  --color-button: #1b1146;
+  --color-hoverbutton: #f3ebff;
+  --color-welcome1: #12284c;
+  --color-welcome2: #29559b;
+  --font-codystar: "Codystar";
+  --font-cormorant: "Cormorant Unicase";
+  --color-font-cormorant: #fffcb2;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saturn Eternal - Triverse</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Oleo+Script+Swash+Caps&family=Inter:wght@400;600;700&family=Poppins:wght@300;400;600&family=Actor&family=Afacad:wght@400;500;600;700&family=Albert+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/porter-sans-block"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/product-details.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div
+          class="logo"
+          style="
+            font-family: 'Porter Sans Block', sans-serif;
+            font-size: 1.5rem;
+          "
+        >
+          TRIVERSE
+        </div>
+        <div class="nav-cart-container">
+          <nav class="nav">
+            <a href="/page/home.html" class="nav-link">Home</a>
+            <a href="/page/" class="nav-link">About</a>
+            <a href="/page/product.html" class="nav-link">Shop</a>
+            <a href="/page/contact.html" class="nav-link">Contact</a>
+          </nav>
+          <div class="cart-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M9 22a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+              <path d="M20 22a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <div class="container">
+        <span>Home</span> / <span>Products</span> / <span>Saturn Eternal</span>
+      </div>
+    </div>
+
+    <!-- Main Product Section -->
+    <main class="main-product">
+      <div class="container">
+        <div class="product-grid">
+          <div class="product-image">
+            <div class="perfume-bottle">
+              <img
+                src="/asset/img/p4.png"
+                alt="Saturn Eternal Perfume"
+                class="perfume-img"
+              />
+              <div class="bottle-shadow"></div>
+            </div>
+          </div>
+
+          <div class="product-info">
+            <h1 class="product-title">Saturn Eternal</h1>
+            <p class="product-description">
+              A scent shaped by distance and quiet, inspired by the pale ringed
+              giant. Cool woods and dry minerals blend with soft vetiver,
+              creating a calm and weightless atmosphere. It lingers like saturn
+              itself—distant, steady, and eternal.
+            </p>
+
+            <div class="rating">
+              <div class="stars">
+                <span class="star active">★</span>
+                <span class="star active">★</span>
+                <span class="star active">★</span>
+                <span class="star active">★</span>
+                <span class="star active">★</span>
+              </div>
+              <span class="rating-text">5.0 (125 reviews)</span>
+            </div>
+
+            <div class="price">$250.00</div>
+
+            <div class="quantity-section">
+              <label for="quantity">Quantity</label>
+              <div class="quantity-controls">
+                <button class="quantity-btn" id="decreaseBtn">-</button>
+                <input
+                  type="number"
+                  id="quantity"
+                  value="1"
+                  min="1"
+                  max="10"
+                  readonly
+                />
+                <button class="quantity-btn" id="increaseBtn">+</button>
+              </div>
+            </div>
+
+            <div class="buttons">
+              <button class="btn-primary" id="addToCart">Add To Cart</button>
+              <button class="btn-secondary" id="checkoutNow">
+                Checkout Now
+              </button>
+              <button class="btn-wishlist" id="wishlist">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                  />
+                </svg>
+                Wish List
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Product Details -->
+    <section class="product-details">
+      <div class="container">
+        <h2>Product Details</h2>
+        <p>
+          Saturn Eternal evokes the quiet majesty of Saturn with a cool blend of
+          icy woods and dry minerals. Silvered cedar and frozen resin float over
+          soft amber dust and smoky vetiver, creating a scent that feels
+          weightless—cold, distant, and timeless.
+        </p>
+      </div>
+    </section>
+
+    <!-- Notes Section -->
+    <section class="notes-section">
+      <div class="container">
+        <div class="notes-grid">
+          <div class="note-card">
+            <div class="note-header">
+              <h3>Top Note</h3>
+              <p>The Silence Above</p>
+            </div>
+            <div class="note-visual">
+              <img
+                src="/asset/img/bergamot.png"
+                alt="Top Note"
+                class="note-img"
+              />
+            </div>
+            <p class="note-description">
+              Opens with a breath of cold air—bergamot and juniper crisp and
+              quiet like wind over frozen rings.
+            </p>
+          </div>
+
+          <div class="note-card">
+            <div class="note-header">
+              <h3>Heart Note</h3>
+              <p>The Gravity Within</p>
+            </div>
+            <div class="note-visual">
+              <img
+                src="/asset/img/tulip.png"
+                alt="Heart Note"
+                class="note-img"
+              />
+            </div>
+            <p class="note-description">
+              At its core: silvered cedar, frozen incense, and orris root echo a
+              cool, mineral stillness—quiet yet resonant.
+            </p>
+          </div>
+
+          <div class="note-card">
+            <div class="note-header">
+              <h3>Base Note</h3>
+              <p>The Echo of Eternity</p>
+            </div>
+            <div class="note-visual">
+              <img
+                src="/asset/img/amber.png"
+                alt="Base Note"
+                class="note-img"
+              />
+            </div>
+            <p class="note-description">
+              Smoky vetiver, amber dust, and musk linger like time in
+              orbit—cool, pale, and endlessly echoing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discover More -->
+    <section class="discover-section">
+      <div class="container">
+        <h2>Discover More</h2>
+        <div class="discover-container">
+          <div class="discover-grid">
+            <a class="discover-card" href="celestia-no-9.html">
+              <div class="discover-icon">
+                <img src="/asset/img/p2.png" alt="Celestia No. 9" />
+              </div>
+              <h3>Celestia No. 9</h3>
+              <p class="perfume-type">Ethereal • Luminous</p>
+              <div class="discover-rating">
+                <span class="stars">★★★★★</span>
+                <span>4.8 (94)</span>
+              </div>
+              <div class="discover-price">$340.00</div>
+            </a>
+
+            <a class="discover-card" href="neptune-drift.html">
+              <div class="discover-icon">
+                <img src="/asset/img/p5.png" alt="Neptune Drift" />
+              </div>
+              <h3>Neptune Drift</h3>
+              <p class="perfume-type">Aquatic • Mysterious</p>
+              <div class="discover-rating">
+                <span class="stars">★★★★☆</span>
+                <span>4.6 (76)</span>
+              </div>
+              <div class="discover-price">$275.00</div>
+            </a>
+
+            <a class="discover-card" href="stellar-bloom.html">
+              <div class="discover-icon">
+                <img src="/asset/img/p1.png" alt="Stellar Bloom" />
+              </div>
+              <h3>Stellar Bloom</h3>
+              <p class="perfume-type">Floral • Cosmic</p>
+              <div class="discover-rating">
+                <span class="stars">★★★★★</span>
+                <span>4.9 (142)</span>
+              </div>
+              <div class="discover-price">$320.00</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="product-details.js"></script>
+  </body>
+</html>
